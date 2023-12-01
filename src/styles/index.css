@@ -1,3 +1,39 @@
-/* 
-    General Styles
-*/
+/* home.css */
+.contact-list-container {
+  margin: 20px; /* Márgenes alrededor de la lista de contactos */
+}
+
+.contact-rectangle {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el contenido del rectángulo */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px; /* Márgen inferior al recuadro de contacto */
+}
+
+.contact-image-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px; /* Espacio a la izquierda del recuadro para la foto */
+}
+
+.contact-image {
+  width: 100%; /* Ajusta el ancho de la imagen */
+  height: 100%; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Para que la imagen se ajuste dentro del contenedor circular */
+}
+
+.contact-details {
+  flex-grow: 1;
+}
+
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Puedes ajustar estos estilos según tus necesidades específicas */
